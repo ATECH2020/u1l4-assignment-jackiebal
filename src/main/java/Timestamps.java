@@ -14,9 +14,11 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
-        int deltaHours = seconds2 - seconds1;
-        int deltaMinutes = minutes2 - minutes1;
-        int deltaSeconds = hours2 - hours1; 
+        int deltaHours = hours2 - hours1;
+        int deltaMinutes = minutes2 - minutes1; 
+        int deltaSeconds = seconds2 - seconds1;
+        
+        
         
         
 
