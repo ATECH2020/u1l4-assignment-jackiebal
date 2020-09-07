@@ -14,7 +14,7 @@ class AnalogClock {
         int minutesAfterHour = time % 60;
         int degrees = minutesAfterHour * 12;
 
-        System.out.println(degrees % 360);
+        System.out.print(degrees % 360);
 
         // closing the scanner object
         scanner.close();
