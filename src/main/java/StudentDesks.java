@@ -11,7 +11,12 @@ class StudentDesks {
         int class2 = scanner.nextInt();
         int class3 = scanner.nextInt();
         
-        System.out.print((class1 / 2) + (class1 % 2) + + (class2 / 2) + (class2 % 2)+ (class3 % 2) + (class3 / 2));
+        int class1Desks = (class1 / 2) + (class1 % 2);
+        int class2Desks = (class2 / 2) + (class2 % 2);
+        int class3Desks = (class3 / 2) + (class3 % 2);
+
+        //calculate and print 
+        System.out.print(class1Desks + class2Desks + class3Desks);
 
 
         // closing the scanner object
