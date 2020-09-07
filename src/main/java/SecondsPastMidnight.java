@@ -10,10 +10,11 @@ class SecondsPastMidnight {
         int sec = scanner.nextInt();
         int hours;
         int min;
-        //Your code goes here
-      hours = sec/3600;
-      min = sec/60;
-      System.out.print(hours + " " + min);
+
+        //operations
+        hours = sec/3600;
+        min = sec/60;
+        System.out.print(hours + " " + min);
 
         // closing the scanner object
         scanner.close();
