@@ -14,10 +14,16 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
-
-        /*
-         *  your code goes here
-         */
+        //calculate differences
+        int deltaHours = hours2 - hours1;
+        int deltaMinutes = minutes2 - minutes1; 
+        int deltaSeconds = seconds2 - seconds1;
+        
+        
+        
+        //calculate seconds and print
+        System.out.print((deltaHours*3600) + (deltaMinutes * 60) + deltaSeconds); 
+        
 
 
         // closing the scanner object
